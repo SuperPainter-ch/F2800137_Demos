@@ -1,0 +1,634 @@
+
+**** Clean-only build of configuration Debug for project F280013x_Demo14_DacOut ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "F280013x_Demo14_DacOut.out" 
+DEL /F "main.obj" "Peripheral\Adc.obj" "Peripheral\Cmpss.obj" "Peripheral\Dac.obj" "Peripheral\Epwm.obj" "Peripheral\ExInt.obj" "Peripheral\Gpio.obj" "Peripheral\Sci.obj" "Peripheral\Timer.obj" "User\Adc_ISR.obj" "User\ExInt_ISR.obj" "User\Timer0_ISR.obj" "User\Timer1_ISR.obj" "User\Timer2_ISR.obj" "common\source\f280013x_adc.obj" "common\source\f280013x_codestartbranch.obj" "common\source\f280013x_cputimers.obj" "common\source\f280013x_dbgier.obj" "common\source\f280013x_defaultisr.obj" "common\source\f280013x_epwm.obj" "common\source\f280013x_gpio.obj" "common\source\f280013x_piectrl.obj" "common\source\f280013x_pievect.obj" "common\source\f280013x_spi.obj" "common\source\f280013x_sysctrl.obj" "common\source\f280013x_tempsensorconv.obj" "common\source\f280013x_usdelay.obj" "headers\source\f280013x_globalvariabledefs.obj" 
+DEL /F "main.d" "Peripheral\Adc.d" "Peripheral\Cmpss.d" "Peripheral\Dac.d" "Peripheral\Epwm.d" "Peripheral\ExInt.d" "Peripheral\Gpio.d" "Peripheral\Sci.d" "Peripheral\Timer.d" "User\Adc_ISR.d" "User\ExInt_ISR.d" "User\Timer0_ISR.d" "User\Timer1_ISR.d" "User\Timer2_ISR.d" "common\source\f280013x_adc.d" "common\source\f280013x_cputimers.d" "common\source\f280013x_defaultisr.d" "common\source\f280013x_epwm.d" "common\source\f280013x_gpio.d" "common\source\f280013x_piectrl.d" "common\source\f280013x_pievect.d" "common\source\f280013x_spi.d" "common\source\f280013x_sysctrl.d" "common\source\f280013x_tempsensorconv.d" "headers\source\f280013x_globalvariabledefs.d" 
+DEL /F "common\source\f280013x_codestartbranch.d" "common\source\f280013x_dbgier.d" "common\source\f280013x_usdelay.d" 
+找不到 E:\F2800137_Demos\F280013x_Demo14_DacOut\Debug\common\source\f280013x_codestartbranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo14_DacOut ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../Peripheral/Dac.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Dac.d_raw" --obj_directory="Peripheral"  "../Peripheral/Dac.c"
+Finished building: "../Peripheral/Dac.c"
+ 
+Building file: "../Peripheral/Adc.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Adc.d_raw" --obj_directory="Peripheral"  "../Peripheral/Adc.c"
+Finished building: "../Peripheral/Adc.c"
+ 
+Building file: "../Peripheral/Cmpss.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Cmpss.d_raw" --obj_directory="Peripheral"  "../Peripheral/Cmpss.c"
+Finished building: "../Peripheral/Cmpss.c"
+ 
+Building file: "../Peripheral/ExInt.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/ExInt.d_raw" --obj_directory="Peripheral"  "../Peripheral/ExInt.c"
+Finished building: "../Peripheral/ExInt.c"
+ 
+Building file: "../Peripheral/Epwm.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Epwm.d_raw" --obj_directory="Peripheral"  "../Peripheral/Epwm.c"
+Finished building: "../Peripheral/Epwm.c"
+ 
+Building file: "../Peripheral/Sci.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Sci.d_raw" --obj_directory="Peripheral"  "../Peripheral/Sci.c"
+Finished building: "../Peripheral/Sci.c"
+ 
+Building file: "../Peripheral/Gpio.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Gpio.d_raw" --obj_directory="Peripheral"  "../Peripheral/Gpio.c"
+Finished building: "../Peripheral/Gpio.c"
+ 
+Building file: "../Peripheral/Timer.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Timer.d_raw" --obj_directory="Peripheral"  "../Peripheral/Timer.c"
+Finished building: "../Peripheral/Timer.c"
+ 
+Building file: "../User/Adc_ISR.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="User/Adc_ISR.d_raw" --obj_directory="User"  "../User/Adc_ISR.c"
+Finished building: "../User/Adc_ISR.c"
+ 
+Building file: "../User/Timer0_ISR.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="User/Timer0_ISR.d_raw" --obj_directory="User"  "../User/Timer0_ISR.c"
+Finished building: "../User/Timer0_ISR.c"
+ 
+Building file: "../User/ExInt_ISR.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="User/ExInt_ISR.d_raw" --obj_directory="User"  "../User/ExInt_ISR.c"
+Finished building: "../User/ExInt_ISR.c"
+ 
+Building file: "../User/Timer1_ISR.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="User/Timer1_ISR.d_raw" --obj_directory="User"  "../User/Timer1_ISR.c"
+Finished building: "../User/Timer1_ISR.c"
+ 
+Building file: "../User/Timer2_ISR.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="User/Timer2_ISR.d_raw" --obj_directory="User"  "../User/Timer2_ISR.c"
+Finished building: "../User/Timer2_ISR.c"
+ 
+Building file: "../common/source/f280013x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_codestartbranch.d_raw" --obj_directory="common/source"  "../common/source/f280013x_codestartbranch.asm"
+Finished building: "../common/source/f280013x_codestartbranch.asm"
+ 
+Building file: "../common/source/f280013x_adc.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_adc.d_raw" --obj_directory="common/source"  "../common/source/f280013x_adc.c"
+Finished building: "../common/source/f280013x_adc.c"
+ 
+Building file: "../common/source/f280013x_cputimers.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_cputimers.d_raw" --obj_directory="common/source"  "../common/source/f280013x_cputimers.c"
+Finished building: "../common/source/f280013x_cputimers.c"
+ 
+Building file: "../common/source/f280013x_dbgier.asm"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_dbgier.d_raw" --obj_directory="common/source"  "../common/source/f280013x_dbgier.asm"
+Finished building: "../common/source/f280013x_dbgier.asm"
+ 
+Building file: "../common/source/f280013x_defaultisr.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_defaultisr.d_raw" --obj_directory="common/source"  "../common/source/f280013x_defaultisr.c"
+Finished building: "../common/source/f280013x_defaultisr.c"
+ 
+Building file: "../common/source/f280013x_epwm.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_epwm.d_raw" --obj_directory="common/source"  "../common/source/f280013x_epwm.c"
+Finished building: "../common/source/f280013x_epwm.c"
+ 
+Building file: "../common/source/f280013x_piectrl.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_piectrl.d_raw" --obj_directory="common/source"  "../common/source/f280013x_piectrl.c"
+Finished building: "../common/source/f280013x_piectrl.c"
+ 
+Building file: "../common/source/f280013x_pievect.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_pievect.d_raw" --obj_directory="common/source"  "../common/source/f280013x_pievect.c"
+Finished building: "../common/source/f280013x_pievect.c"
+ 
+Building file: "../common/source/f280013x_spi.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_spi.d_raw" --obj_directory="common/source"  "../common/source/f280013x_spi.c"
+Finished building: "../common/source/f280013x_spi.c"
+ 
+Building file: "../common/source/f280013x_gpio.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_gpio.d_raw" --obj_directory="common/source"  "../common/source/f280013x_gpio.c"
+Finished building: "../common/source/f280013x_gpio.c"
+ 
+Building file: "../common/source/f280013x_tempsensorconv.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_tempsensorconv.d_raw" --obj_directory="common/source"  "../common/source/f280013x_tempsensorconv.c"
+"../common/source/f280013x_tempsensorconv.c", line 105 (col. 48): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "../common/source/f280013x_tempsensorconv.c"
+ 
+Building file: "../common/source/f280013x_usdelay.asm"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_usdelay.d_raw" --obj_directory="common/source"  "../common/source/f280013x_usdelay.asm"
+Finished building: "../common/source/f280013x_usdelay.asm"
+ 
+Building file: "../common/source/f280013x_sysctrl.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_sysctrl.d_raw" --obj_directory="common/source"  "../common/source/f280013x_sysctrl.c"
+"../common/source/f280013x_sysctrl.c", line 776 (col. 33): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "../common/source/f280013x_sysctrl.c"
+ 
+Building file: "../headers/source/f280013x_globalvariabledefs.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/User" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo14_DacOut" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="headers/source/f280013x_globalvariabledefs.d_raw" --obj_directory="headers/source"  "../headers/source/f280013x_globalvariabledefs.c"
+Finished building: "../headers/source/f280013x_globalvariabledefs.c"
+ 
+Building target: "F280013x_Demo14_DacOut.out"
+Invoking: C2000 Linker
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"F280013x_Demo14_DacOut.map" --heap_size=0x400 --stack_size=0x200 --warn_sections -i"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="F280013x_Demo14_DacOut_linkInfo.xml" --rom_model -o "F280013x_Demo14_DacOut.out" "./main.obj" "./Peripheral/Adc.obj" "./Peripheral/Cmpss.obj" "./Peripheral/Dac.obj" "./Peripheral/Epwm.obj" "./Peripheral/ExInt.obj" "./Peripheral/Gpio.obj" "./Peripheral/Sci.obj" "./Peripheral/Timer.obj" "./User/Adc_ISR.obj" "./User/ExInt_ISR.obj" "./User/Timer0_ISR.obj" "./User/Timer1_ISR.obj" "./User/Timer2_ISR.obj" "./common/source/f280013x_adc.obj" "./common/source/f280013x_codestartbranch.obj" "./common/source/f280013x_cputimers.obj" "./common/source/f280013x_dbgier.obj" "./common/source/f280013x_defaultisr.obj" "./common/source/f280013x_epwm.obj" "./common/source/f280013x_gpio.obj" "./common/source/f280013x_piectrl.obj" "./common/source/f280013x_pievect.obj" "./common/source/f280013x_spi.obj" "./common/source/f280013x_sysctrl.obj" "./common/source/f280013x_tempsensorconv.obj" "./common/source/f280013x_usdelay.obj" "./headers/source/f280013x_globalvariabledefs.obj" "../common/cmd/280013x_generic_flash_lnk.cmd" "../headers/cmd/f280013x_headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+Finished building target: "F280013x_Demo14_DacOut.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Peripheral/Sci.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Sci.d_raw" --obj_directory="Peripheral"  "../Peripheral/Sci.c"
+Finished building: "../Peripheral/Sci.c"
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "F280013x_Demo03_Sci.out"
+Invoking: C2000 Linker
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"F280013x_Demo03_Sci.map" --stack_size=0x200 --warn_sections -i"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="F280013x_Demo03_Sci_linkInfo.xml" --rom_model -o "F280013x_Demo03_Sci.out" "./main.obj" "./Peripheral/Gpio.obj" "./Peripheral/Sci.obj" "./Peripheral/Timer.obj" "./User/Timer0_ISR.obj" "./User/Timer1_ISR.obj" "./User/Timer2_ISR.obj" "./common/source/f280013x_adc.obj" "./common/source/f280013x_codestartbranch.obj" "./common/source/f280013x_cputimers.obj" "./common/source/f280013x_dbgier.obj" "./common/source/f280013x_defaultisr.obj" "./common/source/f280013x_epwm.obj" "./common/source/f280013x_gpio.obj" "./common/source/f280013x_piectrl.obj" "./common/source/f280013x_pievect.obj" "./common/source/f280013x_spi.obj" "./common/source/f280013x_sysctrl.obj" "./common/source/f280013x_tempsensorconv.obj" "./common/source/f280013x_usdelay.obj" "./headers/source/f280013x_globalvariabledefs.obj" "../common/cmd/280013x_generic_ram_lnk.cmd" "../headers/cmd/f280013x_headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+Finished building target: "F280013x_Demo03_Sci.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo01_Gpio ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo01_Gpio.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo01_Gpio ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo01_Gpio.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo01_Gpio ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo01_Gpio.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo01_Gpio ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo01_Gpio.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo01_Gpio ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo01_Gpio.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo01_Gpio ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo01_Gpio.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Peripheral/Gpio.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Gpio.d_raw" --obj_directory="Peripheral"  "../Peripheral/Gpio.c"
+Finished building: "../Peripheral/Gpio.c"
+ 
+Building target: "F280013x_Demo03_Sci.out"
+Invoking: C2000 Linker
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"F280013x_Demo03_Sci.map" --stack_size=0x200 --warn_sections -i"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="F280013x_Demo03_Sci_linkInfo.xml" --rom_model -o "F280013x_Demo03_Sci.out" "./main.obj" "./Peripheral/Gpio.obj" "./Peripheral/Sci.obj" "./Peripheral/Timer.obj" "./User/Timer0_ISR.obj" "./User/Timer1_ISR.obj" "./User/Timer2_ISR.obj" "./common/source/f280013x_adc.obj" "./common/source/f280013x_codestartbranch.obj" "./common/source/f280013x_cputimers.obj" "./common/source/f280013x_dbgier.obj" "./common/source/f280013x_defaultisr.obj" "./common/source/f280013x_epwm.obj" "./common/source/f280013x_gpio.obj" "./common/source/f280013x_piectrl.obj" "./common/source/f280013x_pievect.obj" "./common/source/f280013x_spi.obj" "./common/source/f280013x_sysctrl.obj" "./common/source/f280013x_tempsensorconv.obj" "./common/source/f280013x_usdelay.obj" "./headers/source/f280013x_globalvariabledefs.obj" "../common/cmd/280013x_generic_ram_lnk.cmd" "../headers/cmd/f280013x_headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+Finished building target: "F280013x_Demo03_Sci.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../User/Timer2_ISR.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="User/Timer2_ISR.d_raw" --obj_directory="User"  "../User/Timer2_ISR.c"
+Finished building: "../User/Timer2_ISR.c"
+ 
+Building target: "F280013x_Demo03_Sci.out"
+Invoking: C2000 Linker
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"F280013x_Demo03_Sci.map" --stack_size=0x200 --warn_sections -i"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="F280013x_Demo03_Sci_linkInfo.xml" --rom_model -o "F280013x_Demo03_Sci.out" "./main.obj" "./Peripheral/Gpio.obj" "./Peripheral/Sci.obj" "./Peripheral/Timer.obj" "./User/Timer0_ISR.obj" "./User/Timer1_ISR.obj" "./User/Timer2_ISR.obj" "./common/source/f280013x_adc.obj" "./common/source/f280013x_codestartbranch.obj" "./common/source/f280013x_cputimers.obj" "./common/source/f280013x_dbgier.obj" "./common/source/f280013x_defaultisr.obj" "./common/source/f280013x_epwm.obj" "./common/source/f280013x_gpio.obj" "./common/source/f280013x_piectrl.obj" "./common/source/f280013x_pievect.obj" "./common/source/f280013x_spi.obj" "./common/source/f280013x_sysctrl.obj" "./common/source/f280013x_tempsensorconv.obj" "./common/source/f280013x_usdelay.obj" "./headers/source/f280013x_globalvariabledefs.obj" "../common/cmd/280013x_generic_ram_lnk.cmd" "../headers/cmd/f280013x_headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+Finished building target: "F280013x_Demo03_Sci.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "F280013x_Demo03_Sci.out" 
+DEL /F "main.obj" "Peripheral\Gpio.obj" "Peripheral\Sci.obj" "Peripheral\Timer.obj" "User\Timer0_ISR.obj" "User\Timer1_ISR.obj" "User\Timer2_ISR.obj" "common\source\f280013x_adc.obj" "common\source\f280013x_codestartbranch.obj" "common\source\f280013x_cputimers.obj" "common\source\f280013x_dbgier.obj" "common\source\f280013x_defaultisr.obj" "common\source\f280013x_epwm.obj" "common\source\f280013x_gpio.obj" "common\source\f280013x_piectrl.obj" "common\source\f280013x_pievect.obj" "common\source\f280013x_spi.obj" "common\source\f280013x_sysctrl.obj" "common\source\f280013x_tempsensorconv.obj" "common\source\f280013x_usdelay.obj" "headers\source\f280013x_globalvariabledefs.obj" 
+DEL /F "main.d" "Peripheral\Gpio.d" "Peripheral\Sci.d" "Peripheral\Timer.d" "User\Timer0_ISR.d" "User\Timer1_ISR.d" "User\Timer2_ISR.d" "common\source\f280013x_adc.d" "common\source\f280013x_cputimers.d" "common\source\f280013x_defaultisr.d" "common\source\f280013x_epwm.d" "common\source\f280013x_gpio.d" "common\source\f280013x_piectrl.d" "common\source\f280013x_pievect.d" "common\source\f280013x_spi.d" "common\source\f280013x_sysctrl.d" "common\source\f280013x_tempsensorconv.d" "headers\source\f280013x_globalvariabledefs.d" 
+DEL /F "common\source\f280013x_codestartbranch.d" "common\source\f280013x_dbgier.d" "common\source\f280013x_usdelay.d" 
+找不到 E:\F2800137_Demos\F280013x_Demo03_Sci\Debug\common\source\f280013x_codestartbranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../Peripheral/Sci.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Sci.d_raw" --obj_directory="Peripheral"  "../Peripheral/Sci.c"
+Finished building: "../Peripheral/Sci.c"
+ 
+Building file: "../Peripheral/Gpio.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Gpio.d_raw" --obj_directory="Peripheral"  "../Peripheral/Gpio.c"
+Finished building: "../Peripheral/Gpio.c"
+ 
+Building file: "../Peripheral/Timer.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Peripheral/Timer.d_raw" --obj_directory="Peripheral"  "../Peripheral/Timer.c"
+Finished building: "../Peripheral/Timer.c"
+ 
+Building file: "../User/Timer0_ISR.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="User/Timer0_ISR.d_raw" --obj_directory="User"  "../User/Timer0_ISR.c"
+Finished building: "../User/Timer0_ISR.c"
+ 
+Building file: "../User/Timer1_ISR.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="User/Timer1_ISR.d_raw" --obj_directory="User"  "../User/Timer1_ISR.c"
+Finished building: "../User/Timer1_ISR.c"
+ 
+Building file: "../User/Timer2_ISR.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="User/Timer2_ISR.d_raw" --obj_directory="User"  "../User/Timer2_ISR.c"
+Finished building: "../User/Timer2_ISR.c"
+ 
+Building file: "../common/source/f280013x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_codestartbranch.d_raw" --obj_directory="common/source"  "../common/source/f280013x_codestartbranch.asm"
+Finished building: "../common/source/f280013x_codestartbranch.asm"
+ 
+Building file: "../common/source/f280013x_adc.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_adc.d_raw" --obj_directory="common/source"  "../common/source/f280013x_adc.c"
+Finished building: "../common/source/f280013x_adc.c"
+ 
+Building file: "../common/source/f280013x_cputimers.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_cputimers.d_raw" --obj_directory="common/source"  "../common/source/f280013x_cputimers.c"
+Finished building: "../common/source/f280013x_cputimers.c"
+ 
+Building file: "../common/source/f280013x_dbgier.asm"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_dbgier.d_raw" --obj_directory="common/source"  "../common/source/f280013x_dbgier.asm"
+Finished building: "../common/source/f280013x_dbgier.asm"
+ 
+Building file: "../common/source/f280013x_defaultisr.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_defaultisr.d_raw" --obj_directory="common/source"  "../common/source/f280013x_defaultisr.c"
+Finished building: "../common/source/f280013x_defaultisr.c"
+ 
+Building file: "../common/source/f280013x_epwm.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_epwm.d_raw" --obj_directory="common/source"  "../common/source/f280013x_epwm.c"
+Finished building: "../common/source/f280013x_epwm.c"
+ 
+Building file: "../common/source/f280013x_piectrl.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_piectrl.d_raw" --obj_directory="common/source"  "../common/source/f280013x_piectrl.c"
+Finished building: "../common/source/f280013x_piectrl.c"
+ 
+Building file: "../common/source/f280013x_gpio.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_gpio.d_raw" --obj_directory="common/source"  "../common/source/f280013x_gpio.c"
+Finished building: "../common/source/f280013x_gpio.c"
+ 
+Building file: "../common/source/f280013x_pievect.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_pievect.d_raw" --obj_directory="common/source"  "../common/source/f280013x_pievect.c"
+Finished building: "../common/source/f280013x_pievect.c"
+ 
+Building file: "../common/source/f280013x_spi.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_spi.d_raw" --obj_directory="common/source"  "../common/source/f280013x_spi.c"
+Finished building: "../common/source/f280013x_spi.c"
+ 
+Building file: "../common/source/f280013x_usdelay.asm"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_usdelay.d_raw" --obj_directory="common/source"  "../common/source/f280013x_usdelay.asm"
+Finished building: "../common/source/f280013x_usdelay.asm"
+ 
+Building file: "../common/source/f280013x_sysctrl.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_sysctrl.d_raw" --obj_directory="common/source"  "../common/source/f280013x_sysctrl.c"
+"../common/source/f280013x_sysctrl.c", line 776 (col. 33): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "../common/source/f280013x_sysctrl.c"
+ 
+Building file: "../common/source/f280013x_tempsensorconv.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/f280013x_tempsensorconv.d_raw" --obj_directory="common/source"  "../common/source/f280013x_tempsensorconv.c"
+"../common/source/f280013x_tempsensorconv.c", line 105 (col. 48): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+Finished building: "../common/source/f280013x_tempsensorconv.c"
+ 
+Building file: "../headers/source/f280013x_globalvariabledefs.c"
+Invoking: C2000 Compiler
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/common/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/User" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/Peripheral" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci/headers/include" --include_path="E:/F2800137_Demos/F280013x_Demo03_Sci" --include_path="D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="headers/source/f280013x_globalvariabledefs.d_raw" --obj_directory="headers/source"  "../headers/source/f280013x_globalvariabledefs.c"
+Finished building: "../headers/source/f280013x_globalvariabledefs.c"
+ 
+Building target: "F280013x_Demo03_Sci.out"
+Invoking: C2000 Linker
+"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"F280013x_Demo03_Sci.map" --stack_size=0x200 --warn_sections -i"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"D:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="F280013x_Demo03_Sci_linkInfo.xml" --rom_model -o "F280013x_Demo03_Sci.out" "./main.obj" "./Peripheral/Gpio.obj" "./Peripheral/Sci.obj" "./Peripheral/Timer.obj" "./User/Timer0_ISR.obj" "./User/Timer1_ISR.obj" "./User/Timer2_ISR.obj" "./common/source/f280013x_adc.obj" "./common/source/f280013x_codestartbranch.obj" "./common/source/f280013x_cputimers.obj" "./common/source/f280013x_dbgier.obj" "./common/source/f280013x_defaultisr.obj" "./common/source/f280013x_epwm.obj" "./common/source/f280013x_gpio.obj" "./common/source/f280013x_piectrl.obj" "./common/source/f280013x_pievect.obj" "./common/source/f280013x_spi.obj" "./common/source/f280013x_sysctrl.obj" "./common/source/f280013x_tempsensorconv.obj" "./common/source/f280013x_usdelay.obj" "./headers/source/f280013x_globalvariabledefs.obj" "../common/cmd/280013x_generic_flash_lnk.cmd" "../headers/cmd/f280013x_headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+Finished building target: "F280013x_Demo03_Sci.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F280013x_Demo03_Sci ****
+
+"D:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'F280013x_Demo03_Sci.out' is up to date.
+
+**** Build Finished ****

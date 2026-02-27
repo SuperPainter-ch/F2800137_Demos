@@ -1,0 +1,8 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo05_Spi,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo06_I2c,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo08_Hrpwm,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo01_Graph,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo02_Timer,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo04_Usart,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo07_Epwm,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo08_AdcSoftTrig,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo09_AdcEpwmTrig,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo10_InputXbar,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo11_OutputXbar,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo12_EpwmXbar_Cmpss,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo14_DacOut,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo01_Gpio,org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo03_Sci
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo01_Graph/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo01_Graph/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:F280013x_Demo03_Sci/activeLaunchMode=run
